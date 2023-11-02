@@ -14,7 +14,13 @@
         <div class="rectangle"></div>
         <div class="hd">Transportify</div>
         <div class="prp1">Log in</div>
-        <div class="prp2">Drivers & End Users</div>
+        <div>
+            <select class="drpdwn border">
+            <option disabled selected style="display: none;">Select User Type</option>
+            <option value="DEU">Drivers & End Users</option>
+            <option value="STO">Shippers & Transport Operators</option>
+            </select>
+        </div>
         <div class="emphno">Email ID or Phone Number</div>
         <form>
             <input class="tp border" type="text" autofocus="autofocus" placeholder="Enter Your Email ID or Phone Number">
@@ -23,10 +29,9 @@
         <form>
             <input class="tp pos1 border" type="password" placeholder="Enter Your Password">
         </form>
-        <a class="cptxt4 cptxthover" href='moyemoye.html'>Forgot your password?</a>
+        <a class="cptxt4 cptxthover" href='pswdrec.html'>Forgot your password?</a>
         <button class="login shadow" onclick="window.location.href='driver.html'">Log in</button>
-        <a class="cptxt3 cptxthover" href='loginS.html'>Switch to Shippers & Transport Operators Login</a>
-        <a class="cptxt3 pos3 cptxthover" href='loginA.html'>Switch to Admin Login</a>
+        <a class="cptxt3 cptxthover" href='loginA.html'>Switch to Admin Login</a>
         <div class="cptxt">Don't have an account?</div>
         <a class="cptxt1 cptxthover" href='signupD.html'>Sign up here</a>
         <div class="cptxt2">Transportify</div>

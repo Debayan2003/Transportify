@@ -58,7 +58,7 @@ body{
 }
 .tp{
     position: absolute;
-    top: 387px;
+    top: 390px;
     left: 725px;
     text-align: left;
     font-size: 22px;
@@ -81,12 +81,12 @@ body{
     font-family: 'Gotham';
     color: white;
     font-size: 24px;
-    top: 445px;
+    top: 460px;
     left: 730px;
 }
 .pos6{
     position: absolute;
-    top: 473px;
+    top: 490px;
     left: 725px;
     
 }
@@ -95,13 +95,13 @@ body{
     font-family: 'Gotham';
     color: white;
     font-size: 24px;
-    top: 530px;
+    top: 560px;
     left: 730px;
     
 }
 .pos1{
     position: absolute;
-    top: 557px;
+    top: 590px;
     left: 725px;
 }
 .cptxt4{
@@ -109,7 +109,7 @@ body{
     font-family: 'Gotham';
     color: black;
     font-size: 20px;
-    top: 612px;
+    top: 645px;
     left: 938px;
 }
 .border:hover{
@@ -139,7 +139,7 @@ body{
     font-family: 'Gotham';
     font-size: 28px;
     padding-bottom: 3px;
-    top: 660px;
+    top: 700px;
     left: 852px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
@@ -147,35 +147,6 @@ body{
 }
 .shadow:hover{
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.3),0 17px 50px 0 rgba(0,0,0,0.3);
-}
-.cptxt{
-    position: absolute;
-    font-family: 'Gotham';
-    color: black;
-    font-size: 20px;
-    top: 852px;
-    left: 765px;
-}
-.cptxt1{
-    position: absolute;
-    font-family: 'Gotham';
-    color: black;
-    font-size: 20px;
-    top: 852px;
-    left: 1010px;
-}
-.cptxt3{
-    position: absolute;
-    font-family: 'Gotham';
-    color: black;
-    font-size: 22px;
-    top: 735px;
-    left: 750px;
-    text-decoration: none;
-}
-.pos3{
-    top: 780px;
-    left: 683px;
 }
 .cptxthover:hover{
     color: white;
